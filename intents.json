@@ -1,0 +1,50 @@
+{"intents": [
+        {"tag": "greet",
+         "patterns": ["Hi there", "How are you", "Is anyone there","Hey","Hola", "Hello", "Good day","good morning", "good evening", "good afternoon","hey there", "hey dude","let's go"],
+         "responses": ["Hi there, how can I help?"],
+         "context": [""]
+        },
+		 
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "cee you later", "Goodbye", "Nice chatting to you, bye", "Till next time", "cu","see you around"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+		
+        {"tag": "gibberish",
+         "patterns": ["@", "#", "lfahdfadlf", "aaaddhhhgppd", "#####@@@!!!", " "],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+		
+        {"tag": "capability",
+         "patterns": ["How you could help me", "What can you do", "What help do you provide", "How can you be helpful", "What support do you offer"],
+         "responses": ["I am your shopping assistant. How may I assist you?", "I am here to help you shop. How may I assist you?"],
+         "context": [""]
+        },
+		
+        {"tag": "buy",
+         "patterns": ["I want to buy a product", "Can you help to purchase something", "I want to purchase something", "Buy product", "Purchase","Please assist me to purchase a product","Please assist me to buy a product" ],
+         "responses": ["Do you have any images of the product you are looking for?", "Do you have the image of the product?"],
+         "context": [""]
+        },
+		
+		{"tag": "affirm_img",
+         "patterns": ["Yes", "Sure", "Indeed", "Of course", "Yeah","Yeah sure","Ok"],
+         "responses": ["Please upload the image using the 'Upload Files' button "],
+         "context": [""]
+        },
+		
+		{"tag": "deny_img",
+         "patterns": ["No", "Not Sure", "Sorry", "I don't have an image", "Nope","Never"],
+         "responses": ["No problem, tell me which product do you want to buy?"],
+         "context": [""]
+        }
+   ]
+}
